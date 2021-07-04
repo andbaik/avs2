@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap");
+.main, .content, .content .article h2, footer {
+  width: 80%;
+  padding: 0 10%; }
+
+header {
+  display: flex;
+  justify-content: space-between; }
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none; }
+
+html,
+body {
+  height: 100%; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  background-color: #fff;
+  color: #2b2b2b; }
+
+a {
+  text-decoration: none;
+  color: #2b2b2b;
+  transition: color 600ms ease; }
+  a:hover {
+    color: #f56262; }
+
+header {
+  width: 64%;
+  margin: 0 auto;
+  height: 150px;
+  text-align: center; }
+  header h1 {
+    font-size: 26px; }
+
+.main span {
+  color: #9b7a7a; }
+
+.main .link h2 {
+  text-align: center;
+  font-size: 24px; }
+
+.main .link p {
+  width: 80%;
+  margin: 0 auto;
+  background: red;
+  color: #fff;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  border-radius: 5px; }
+
+.main .link ol {
+  width: 75%;
+  margin: 0 auto;
+  padding-left: 60px; }
+
+.content {
+  margin: 60px 0; }
+  .content .article {
+    border-bottom: 2px solid red; }
+    .content .article h2 {
+      background: red;
+      color: #fff;
+      font-size: 24px;
+      text-align: center;
+      font-weight: 800;
+      width: 80%;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 5px; }
+    .content .article .section_block {
+      height: auto;
+      padding: 5px 20px;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid silver;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      font-size: 20px; }
+      .content .article .section_block p {
+        margin-left: 40px;
+        font-size: 22px; }
+
+footer {
+  height: 200px; }
+  footer p {
+    width: 80%;
+    background: red;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    font-weight: 800;
+    font-size: 24px;
+    border-radius: 5px; }
+
+@media (max-width: 1024px) {
+  header {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 0;
+    padding-top: 20px; }
+    header h1 {
+      font-size: 16px; }
+    header .qr {
+      display: none; }
+    header img {
+      width: 80%; }
+  .main {
+    width: 100%;
+    margin: 0 2%;
+    padding: 0; }
+    .main h2, .main p {
+      font-size: 3vw; }
+    .main link p {
+      margin: 0;
+      padding: 0;
+      width: 100%; }
+    .main ol > li {
+      font-size: 3.5vw;
+      margin-right: 4%;
+      margin-left: 4%; } }
