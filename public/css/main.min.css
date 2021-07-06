@@ -39,7 +39,11 @@ header {
     font-size: 26px; }
 
 .main span {
-  color: #9b7a7a; }
+  width: 60%;
+  color: #9b7a7a;
+  font-size: 12px;
+  margin-left: 100px;
+  margin-bottom: 50px; }
 
 .main .link h2 {
   text-align: center;
