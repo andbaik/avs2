@@ -158,6 +158,17 @@ footer{
     }
 }
 
+#scrollup {
+    position: fixed; /* фиксированная позиция */
+    opacity: 0.8; /* прозрачность */
+    padding: 15px 10px 10px; /* отступы */
+    border-radius: 5px; /* скругление углов */
+    right: 10px; /* отступ слева */
+    bottom: 10px; /* отступ снизу */
+    display: none; /* спрятать блок */
+    cursor: pointer;
+}
+
 @media (max-width: 1024px) {
     header{
         
@@ -211,7 +222,7 @@ footer{
         text-align: justify;
         }
     }
-}
+
 .content {
     width: 95%;
     margin: 0;
@@ -236,4 +247,5 @@ footer{
             text-align: justify;
         }
     }
+}
 }

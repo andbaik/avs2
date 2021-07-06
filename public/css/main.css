@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap");
 .main, .content, .content .article h2, footer {
   width: 80%;
@@ -151,6 +152,25 @@ footer p {
           border-radius: 5px;
 }
 
+#scrollup {
+  position: fixed;
+  /* фиксированная позиция */
+  opacity: 0.8;
+  /* прозрачность */
+  padding: 15px 10px 10px;
+  /* отступы */
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  /* скругление углов */
+  right: 10px;
+  /* отступ слева */
+  bottom: 10px;
+  /* отступ снизу */
+  display: none;
+  /* спрятать блок */
+  cursor: pointer;
+}
+
 @media (max-width: 1024px) {
   header {
     width: 80%;
@@ -196,31 +216,27 @@ footer p {
     padding-left: 2px;
     text-align: justify;
   }
-}
-
-.content {
-  width: 95%;
-  margin: 0;
-  padding: 0;
-}
-
-.content .article {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.content .article h2 {
-  width: 72%;
-  font-size: 16px;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 20px auto;
-}
-
-.content .article .section_block > p {
-  font-size: 16px;
-  margin-left: 10px;
-  text-align: justify;
+  .content {
+    width: 95%;
+    margin: 0;
+    padding: 0;
+  }
+  .content .article {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .content .article h2 {
+    width: 72%;
+    font-size: 16px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 20px auto;
+  }
+  .content .article .section_block > p {
+    font-size: 16px;
+    margin-left: 10px;
+    text-align: justify;
+  }
 }
